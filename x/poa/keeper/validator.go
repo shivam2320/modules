@@ -1,8 +1,8 @@
 package keeper
 
 import (
-	"github.com/allinbits/modules/x/poa/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/shivam2320/modules/x/poa/types"
 )
 
 func (k Keeper) SetValidator(ctx sdk.Context, key string, validator types.Validator) {

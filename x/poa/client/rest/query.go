@@ -5,10 +5,10 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/allinbits/modules/x/poa/types"
 	"github.com/cosmos/cosmos-sdk/client/context"
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/types/rest"
+	"github.com/shivam2320/modules/x/poa/types"
 )
 
 func registerQueryRoutes(cliCtx context.CLIContext, r *mux.Router) {

@@ -1,4 +1,5 @@
 package keeper
+
 /*
 // TODO: Define if your module needs Parameters, if not this can be deleted
 
@@ -6,7 +7,7 @@ import (
 	"time"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/allinbits/modules/demo-apps/auth-chain/x/authchain/types"
+	"github.com/shivam2320/modules/demo-apps/auth-chain/x/authchain/types"
 )
 
 // GetParams returns the total set of authchain parameters.

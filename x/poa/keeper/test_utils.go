@@ -4,8 +4,9 @@ import (
 	"bytes"
 	"encoding/hex"
 
-	"github.com/allinbits/modules/x/poa/types"
 	"testing"
+
+	"github.com/shivam2320/modules/x/poa/types"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/store"

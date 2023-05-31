@@ -1,8 +1,8 @@
 package keeper
 
 import (
-	"github.com/allinbits/modules/x/poa/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/shivam2320/modules/x/poa/types"
 )
 
 // SetVote sets a vote with key as votee and voter combined in a byte array

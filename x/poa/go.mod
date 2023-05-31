@@ -1,4 +1,4 @@
-module github.com/allinbits/modules/x/poa
+module github.com/shivam2320/modules/x/poa
 
 go 1.15
 

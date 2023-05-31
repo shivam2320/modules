@@ -3,12 +3,12 @@ package poa
 import (
 	"fmt"
 
-	"github.com/allinbits/modules/x/poa/keeper"
-	"github.com/allinbits/modules/x/poa/msg"
-	"github.com/allinbits/modules/x/poa/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/shivam2320/modules/x/poa/keeper"
+	"github.com/shivam2320/modules/x/poa/msg"
+	"github.com/shivam2320/modules/x/poa/types"
 )
 
 // NewHandler ...

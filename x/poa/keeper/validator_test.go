@@ -3,7 +3,7 @@ package keeper
 import (
 	"testing"
 
-	"github.com/allinbits/modules/x/poa/types"
+	"github.com/shivam2320/modules/x/poa/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	"github.com/stretchr/testify/assert"

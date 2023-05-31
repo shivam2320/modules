@@ -2,8 +2,8 @@ package authchain
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/allinbits/modules/demo-apps/auth-chain/x/authchain/keeper"
-	"github.com/allinbits/modules/demo-apps/auth-chain/x/authchain/types"
+	"github.com/shivam2320/modules/demo-apps/auth-chain/x/authchain/keeper"
+	"github.com/shivam2320/modules/demo-apps/auth-chain/x/authchain/types"
 	// abci "github.com/tendermint/tendermint/abci/types"
 )
 

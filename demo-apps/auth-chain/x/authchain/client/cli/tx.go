@@ -8,7 +8,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/allinbits/modules/demo-apps/auth-chain/x/authchain/types"
+	"github.com/shivam2320/modules/demo-apps/auth-chain/x/authchain/types"
 )
 
 // GetTxCmd returns the transaction commands for this module

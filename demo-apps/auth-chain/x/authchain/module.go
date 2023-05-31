@@ -13,10 +13,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	"github.com/cosmos/cosmos-sdk/x/bank"
-	"github.com/allinbits/modules/demo-apps/auth-chain/x/authchain/client/cli"
-	"github.com/allinbits/modules/demo-apps/auth-chain/x/authchain/client/rest"
-	"github.com/allinbits/modules/demo-apps/auth-chain/x/authchain/keeper"
-	"github.com/allinbits/modules/demo-apps/auth-chain/x/authchain/types"
+	"github.com/shivam2320/modules/demo-apps/auth-chain/x/authchain/client/cli"
+	"github.com/shivam2320/modules/demo-apps/auth-chain/x/authchain/client/rest"
+	"github.com/shivam2320/modules/demo-apps/auth-chain/x/authchain/keeper"
+	"github.com/shivam2320/modules/demo-apps/auth-chain/x/authchain/types"
 )
 
 // Type check to ensure the interface is properly implemented

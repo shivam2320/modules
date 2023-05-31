@@ -1,8 +1,8 @@
 package poa
 
 import (
-	"github.com/allinbits/modules/x/poa/msg"
 	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/shivam2320/modules/x/poa/msg"
 )
 
 // RegisterCodec registers concrete types on codec

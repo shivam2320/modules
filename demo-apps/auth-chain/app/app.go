@@ -10,12 +10,6 @@ import (
 	tmos "github.com/tendermint/tendermint/libs/os"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/allinbits/modules/demo-apps/auth-chain/x/authchain"
-	authchainkeeper "github.com/allinbits/modules/demo-apps/auth-chain/x/authchain/keeper"
-	authchaintypes "github.com/allinbits/modules/demo-apps/auth-chain/x/authchain/types"
-	"github.com/allinbits/modules/x/poa"
-	poakeeper "github.com/allinbits/modules/x/poa/keeper"
-	poatypes "github.com/allinbits/modules/x/poa/types"
 	bam "github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/simapp"
@@ -27,6 +21,12 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/genutil"
 	"github.com/cosmos/cosmos-sdk/x/params"
 	"github.com/cosmos/cosmos-sdk/x/supply"
+	"github.com/shivam2320/modules/demo-apps/auth-chain/x/authchain"
+	authchainkeeper "github.com/shivam2320/modules/demo-apps/auth-chain/x/authchain/keeper"
+	authchaintypes "github.com/shivam2320/modules/demo-apps/auth-chain/x/authchain/types"
+	"github.com/shivam2320/modules/x/poa"
+	poakeeper "github.com/shivam2320/modules/x/poa/keeper"
+	poatypes "github.com/shivam2320/modules/x/poa/types"
 	// this line is used by starport scaffolding # 1
 )
 

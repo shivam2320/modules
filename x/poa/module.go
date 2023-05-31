@@ -11,15 +11,15 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/allinbits/modules/x/poa/client/cli"
-	"github.com/allinbits/modules/x/poa/client/rest"
-	"github.com/allinbits/modules/x/poa/keeper"
-	"github.com/allinbits/modules/x/poa/types"
 	"github.com/cosmos/cosmos-sdk/client/context"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/codec"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/shivam2320/modules/x/poa/client/cli"
+	"github.com/shivam2320/modules/x/poa/client/rest"
+	"github.com/shivam2320/modules/x/poa/keeper"
+	"github.com/shivam2320/modules/x/poa/types"
 	cfg "github.com/tendermint/tendermint/config"
 	"github.com/tendermint/tendermint/crypto"
 

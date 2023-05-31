@@ -1,8 +1,8 @@
 package poa
 
 import (
-	"github.com/allinbits/modules/x/poa/keeper"
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/shivam2320/modules/x/poa/keeper"
 	abci "github.com/tendermint/tendermint/abci/types"
 )
 

@@ -23,8 +23,8 @@ import (
 	"github.com/tendermint/go-amino"
 	"github.com/tendermint/tendermint/libs/cli"
 
-	"github.com/allinbits/modules/demo-apps/auth-chain/app"
-  // this line is used by starport scaffolding # 1
+	"github.com/shivam2320/modules/demo-apps/auth-chain/app"
+	// this line is used by starport scaffolding # 1
 )
 
 func main() {

@@ -13,10 +13,8 @@ import (
 	tmtypes "github.com/tendermint/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/allinbits/modules/demo-apps/auth-chain/app"
+	"github.com/shivam2320/modules/demo-apps/auth-chain/app"
 
-	"github.com/allinbits/modules/x/poa"
-	poacli "github.com/allinbits/modules/x/poa/client/cli"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/client/debug"
 	"github.com/cosmos/cosmos-sdk/client/flags"
@@ -25,6 +23,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/auth"
 	genutilcli "github.com/cosmos/cosmos-sdk/x/genutil/client/cli"
+	"github.com/shivam2320/modules/x/poa"
+	poacli "github.com/shivam2320/modules/x/poa/client/cli"
 )
 
 const flagInvCheckPeriod = "inv-check-period"

@@ -6,7 +6,6 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/allinbits/modules/x/poa/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/context"
 	"github.com/cosmos/cosmos-sdk/client/flags"
@@ -15,6 +14,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/auth"
 	"github.com/cosmos/cosmos-sdk/x/auth/client/utils"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/shivam2320/modules/x/poa/types"
 )
 
 // GetTxCmd returns the transaction commands for this module
